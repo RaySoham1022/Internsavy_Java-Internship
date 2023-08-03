@@ -115,22 +115,22 @@ public class Currency_Converter
  
          case 5:  // Converting from Yen
             rupee = amount *0.58;
-            System.out.println(amount + " yen = " + rupee + " Ruppes");
+            System.out.println(amount + " Yen = " + rupee + " Ruppes");
  
             dollar = amount *0.0070 ;
-            System.out.println(amount + " yen = " + dollar + " Dollar");
+            System.out.println(amount + " Yen = " + dollar + " Dollar");
  
             pound = amount *0.0055;
-            System.out.println(amount + " yen = " + pound + " Pound");
+            System.out.println(amount + " Yen = " + pound + " Pound");
  
             euro = amount *0.0064;
-            System.out.println(amount + " yen = " + euro + " Euro");
+            System.out.println(amount + " Yen = " + euro + " Euro");
  
             yuan = amount *0.050;
-            System.out.println(amount + " Rupee = " + yuan + " Yuan");
+            System.out.println(amount + " Yen = " + yuan + " Yuan");
 
             ruble = amount *0.65;
-            System.out.println(amount + " Rupee = " + ruble + " Ruble\n");
+            System.out.println(amount + " Yen = " + ruble + " Ruble\n");
             break;
  
          case 6:  // Converting from Yuan
